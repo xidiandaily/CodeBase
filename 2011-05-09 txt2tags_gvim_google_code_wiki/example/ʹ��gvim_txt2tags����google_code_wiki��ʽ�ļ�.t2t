@@ -1,0 +1,40 @@
+使用gvim && txt2tags生成google code wiki 格式文件
+作者:池育龙  xidiandaily(at)gmail.com
+%%date(%Y-%m-%d)
+
+%!target:html
+%!Style:fancy.css
+%!postproc: @@ <BR>
+
++ 简介@@
+  + txt2tags 介绍@@
+  [txt2tags http://txt2tags.org/] 是一个文档生成工具，也是一种轻量标记语言[LightWeight markup language http://en.wikipedia.org/wiki/Lightweight_markup_language]。它能够把用这种语言写成的源文件生成不同格式的文档。@@
+  采用这个工具的好处是使得你写一个文档源文件就可以对应生成很多种格式的文档，不需要你再次编写，这样非常便于不同格式之间的文档同步工作，另外还有个比较值得推荐的理由是他能进行很好的版本管理（因为源文件采用的文本形式）。如果你需要为同一个产品写不同格式的文档，又或者想对文档进行良好的版本管理，那就使用txt2tags吧。现在的版本是2.6，生成文档的格式包括：HTML,XHTML,SGML,DocBook,LaTex,Lout,Man page,Creole,Wikipedia/MediaWiki,**Google Code Wiki**,PmWiki,DokuWiki,MoinMoin,MagicPoint,PageMaker,AsciiDoc,ASCII Art,Plain text。@@
+   你可以在这个地址在线体验一下txt2tags的良好功能。[txt2tags在线试用 http://txt2tags.org/online.php]。@@
+  + gvim 介绍@@
+    gvim是一个良好的文本编辑器。关于这个在网上的资料很多，你也可以查看这个介绍[Vim_维基百科 http://txt2tags.org/online.php]。@@
++ 为什么要写这篇文章@@
+  - google code wiki 功能是2.5版本之后才有的。所以，有的txt2tags 安装包（如TXT2TAGS for Windows 2.3[地址 http://txt2tags-win.sourceforge.net/]，这个安装包集合了python安装程序，另外还有一些扩展，如gvim中的语法文件txt2tags，编译插件txt2tags-complier.vim，t2t.vim等，安装后自动在txt2tags/exact文件夹下，将它拷到vim的插件文件夹就行了，不需要一一下载。为Window 的用户提供了一个很方便的安装方式，方便简洁。我之前就是使用该方式安装的txt2tags,不过可惜他是2.3版本的）不支持转换到google code wiki。本文提供了不使用txt2tags for windows的时候的配置方法。@@
+  - 按照[用户手册 http://txt2tags.org/zh/userguide-zh.pdf]安装了python和txt2tags之后，需要经过配置，在vim才更加得心应手，例如支持语法提示，支持在vim中直接编译t2t文件而不必离开vim编辑器等。本文介绍了常用的插件及安装使用方法。@@
++ 如何做
+  + 下载python[下载地址 http://www.python.org/getit/]和txt2tags，安装python。@@
+  + 因为txt2tags其实是一个python的脚本，其本身不需要安装，因此，你只需要把下载到的txt2tags.py文件放到一个你认为合适的地方就可以了。（我放到D:\Program Files\txt2tags\下），然后将txt2tags.py所在的路径设到环境变量中。
+  + 验证安装是否正确。@@
+    打开命令提示符，输入txt2tags.py，然后出现如下的提示，就能证明txt2tags已经安装成功。如果没有如下提示，则检查txt2tags.py所在路径是否已经在电脑的环境变量中了。@@
+```
+C:\Documents and Settings\chiyl>txt2tags.py
+txt2tags: Error: Missing input file (try --help)
+
+Please inform an input file (.t2t) at the end of the command.
+Example: txt2tags -t html file.t2t
+```
+  + 设置gvim中的语法高亮插件txt2tags.vim。@@
+    下载txt2tags.vim[下载地址 http://www.vim.org/scripts/script.php?script_id=1157]，将它放到gvim的语法插件目录中即可（我的语法目录D:\Program Files\Vim\vim73\syntax下）。@@
+  + 设置gvim中自动编译txt2tags。@@
+    下载txt2tags-complier.vim[**在我的代码库中下载** http://code.google.com/p/txt2tags/source/browse/trunk/extras/txt2tags-compiler.vim?r=323]，同样放到gvim的插件目录下即可。（可以放在和t2t.vim同样的目录下）@@
+    这时候，编写t2t文件结束后，直接在vim中输入命令make（:make）就可以将文件转成对应的目标格式了，你可以参考**例程**。@@
++ 附例@@
+  你可以在这个地址下载到本文（也是用txt2tags编写后再转成html格式的）  。@@
+  **本文所提到的txt2tags.vim,txt2tags-complier.也可以在这个地址下到**。 @@
+
+
