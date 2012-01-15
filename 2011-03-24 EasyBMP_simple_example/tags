@@ -1,0 +1,285 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alpha	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Alpha;$/;"	m	struct:RGBApixel	access:public
+BMFH	.\EasyBMP.cpp	/^BMFH::BMFH()$/;"	f	class:BMFH	signature:()
+BMFH	.\EasyBMP_DataStructures.h	/^ BMFH();$/;"	p	class:BMFH	access:public	signature:()
+BMFH	.\EasyBMP_DataStructures.h	/^class BMFH{$/;"	c
+BMFH::BMFH	.\EasyBMP.cpp	/^BMFH::BMFH()$/;"	f	class:BMFH	signature:()
+BMFH::BMFH	.\EasyBMP_DataStructures.h	/^ BMFH();$/;"	p	class:BMFH	access:public	signature:()
+BMFH::SwitchEndianess	.\EasyBMP.cpp	/^void BMFH::SwitchEndianess( void )$/;"	f	class:BMFH	signature:( void )
+BMFH::SwitchEndianess	.\EasyBMP_DataStructures.h	/^ void SwitchEndianess( void );$/;"	p	class:BMFH	access:public	signature:( void )
+BMFH::bfOffBits	.\EasyBMP_DataStructures.h	/^ ebmpDWORD bfOffBits; $/;"	m	class:BMFH	access:public
+BMFH::bfReserved1	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfReserved1;$/;"	m	class:BMFH	access:public
+BMFH::bfReserved2	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfReserved2;$/;"	m	class:BMFH	access:public
+BMFH::bfSize	.\EasyBMP_DataStructures.h	/^ ebmpDWORD bfSize;$/;"	m	class:BMFH	access:public
+BMFH::bfType	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfType;$/;"	m	class:BMFH	access:public
+BMFH::display	.\EasyBMP.cpp	/^void BMFH::display( void )$/;"	f	class:BMFH	signature:( void )
+BMFH::display	.\EasyBMP_DataStructures.h	/^ void display( void );$/;"	p	class:BMFH	access:public	signature:( void )
+BMIH	.\EasyBMP.cpp	/^BMIH::BMIH()$/;"	f	class:BMIH	signature:()
+BMIH	.\EasyBMP_DataStructures.h	/^ BMIH();$/;"	p	class:BMIH	access:public	signature:()
+BMIH	.\EasyBMP_DataStructures.h	/^class BMIH{$/;"	c
+BMIH::BMIH	.\EasyBMP.cpp	/^BMIH::BMIH()$/;"	f	class:BMIH	signature:()
+BMIH::BMIH	.\EasyBMP_DataStructures.h	/^ BMIH();$/;"	p	class:BMIH	access:public	signature:()
+BMIH::SwitchEndianess	.\EasyBMP.cpp	/^void BMIH::SwitchEndianess( void )$/;"	f	class:BMIH	signature:( void )
+BMIH::SwitchEndianess	.\EasyBMP_DataStructures.h	/^ void SwitchEndianess( void );$/;"	p	class:BMIH	access:public	signature:( void )
+BMIH::biBitCount	.\EasyBMP_DataStructures.h	/^ ebmpWORD  biBitCount;$/;"	m	class:BMIH	access:public
+BMIH::biClrImportant	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biClrImportant;$/;"	m	class:BMIH	access:public
+BMIH::biClrUsed	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biClrUsed;$/;"	m	class:BMIH	access:public
+BMIH::biCompression	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biCompression;$/;"	m	class:BMIH	access:public
+BMIH::biHeight	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biHeight;$/;"	m	class:BMIH	access:public
+BMIH::biPlanes	.\EasyBMP_DataStructures.h	/^ ebmpWORD  biPlanes;$/;"	m	class:BMIH	access:public
+BMIH::biSize	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biSize;$/;"	m	class:BMIH	access:public
+BMIH::biSizeImage	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biSizeImage;$/;"	m	class:BMIH	access:public
+BMIH::biWidth	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biWidth;$/;"	m	class:BMIH	access:public
+BMIH::biXPelsPerMeter	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biXPelsPerMeter;$/;"	m	class:BMIH	access:public
+BMIH::biYPelsPerMeter	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biYPelsPerMeter;$/;"	m	class:BMIH	access:public
+BMIH::display	.\EasyBMP.cpp	/^void BMIH::display( void )$/;"	f	class:BMIH	signature:( void )
+BMIH::display	.\EasyBMP_DataStructures.h	/^ void display( void );$/;"	p	class:BMIH	access:public	signature:( void )
+BMP	.\EasyBMP.cpp	/^BMP::BMP( BMP& Input )$/;"	f	class:BMP	signature:( BMP& Input )
+BMP	.\EasyBMP.cpp	/^BMP::BMP()$/;"	f	class:BMP	signature:()
+BMP	.\EasyBMP_BMP.h	/^ BMP( BMP& Input );$/;"	p	class:BMP	access:public	signature:( BMP& Input )
+BMP	.\EasyBMP_BMP.h	/^ BMP();$/;"	p	class:BMP	access:public	signature:()
+BMP	.\EasyBMP_BMP.h	/^class BMP$/;"	c
+BMP	.\main.cpp	/^}BMP;$/;"	t	typeref:struct:__anon1	file:
+BMP::BMP	.\EasyBMP.cpp	/^BMP::BMP( BMP& Input )$/;"	f	class:BMP	signature:( BMP& Input )
+BMP::BMP	.\EasyBMP.cpp	/^BMP::BMP()$/;"	f	class:BMP	signature:()
+BMP::BMP	.\EasyBMP_BMP.h	/^ BMP( BMP& Input );$/;"	p	class:BMP	access:public	signature:( BMP& Input )
+BMP::BMP	.\EasyBMP_BMP.h	/^ BMP();$/;"	p	class:BMP	access:public	signature:()
+BMP::BitDepth	.\EasyBMP_BMP.h	/^ int BitDepth;$/;"	m	class:BMP	access:private
+BMP::Colors	.\EasyBMP_BMP.h	/^ RGBApixel* Colors;$/;"	m	class:BMP	access:private
+BMP::CreateStandardColorTable	.\EasyBMP.cpp	/^bool BMP::CreateStandardColorTable( void )$/;"	f	class:BMP	signature:( void )
+BMP::CreateStandardColorTable	.\EasyBMP_BMP.h	/^ bool CreateStandardColorTable( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::FindClosestColor	.\EasyBMP.cpp	/^ebmpBYTE BMP::FindClosestColor( RGBApixel& input )$/;"	f	class:BMP	signature:( RGBApixel& input )
+BMP::FindClosestColor	.\EasyBMP_BMP.h	/^ ebmpBYTE FindClosestColor( RGBApixel& input );$/;"	p	class:BMP	access:private	signature:( RGBApixel& input )
+BMP::GetColor	.\EasyBMP.cpp	/^RGBApixel BMP::GetColor( int ColorNumber )$/;"	f	class:BMP	signature:( int ColorNumber )
+BMP::GetColor	.\EasyBMP_BMP.h	/^ RGBApixel GetColor( int ColorNumber );$/;"	p	class:BMP	access:public	signature:( int ColorNumber )
+BMP::GetPixel	.\EasyBMP.cpp	/^RGBApixel BMP::GetPixel( int i, int j ) const$/;"	f	class:BMP	signature:( int i, int j ) const
+BMP::GetPixel	.\EasyBMP_BMP.h	/^ RGBApixel GetPixel( int i, int j ) const;$/;"	p	class:BMP	access:public	signature:( int i, int j ) const
+BMP::Height	.\EasyBMP_BMP.h	/^ int Height;$/;"	m	class:BMP	access:private
+BMP::MetaData1	.\EasyBMP_BMP.h	/^ ebmpBYTE* MetaData1;$/;"	m	class:BMP	access:private
+BMP::MetaData2	.\EasyBMP_BMP.h	/^ ebmpBYTE* MetaData2;$/;"	m	class:BMP	access:private
+BMP::Pixels	.\EasyBMP_BMP.h	/^ RGBApixel** Pixels;$/;"	m	class:BMP	access:private
+BMP::Read1bitRow	.\EasyBMP.cpp	/^bool BMP::Read1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read1bitRow	.\EasyBMP_BMP.h	/^ bool Read1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );$/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read24bitRow	.\EasyBMP.cpp	/^bool BMP::Read24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read24bitRow	.\EasyBMP_BMP.h	/^ bool Read24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read32bitRow	.\EasyBMP.cpp	/^bool BMP::Read32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read32bitRow	.\EasyBMP_BMP.h	/^ bool Read32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read4bitRow	.\EasyBMP.cpp	/^bool BMP::Read4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read4bitRow	.\EasyBMP_BMP.h	/^ bool Read4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read8bitRow	.\EasyBMP.cpp	/^bool BMP::Read8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Read8bitRow	.\EasyBMP_BMP.h	/^ bool Read8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::ReadFromFile	.\EasyBMP.cpp	/^bool BMP::ReadFromFile( const char* FileName )$/;"	f	class:BMP	signature:( const char* FileName )
+BMP::ReadFromFile	.\EasyBMP_BMP.h	/^ bool ReadFromFile( const char* FileName );$/;"	p	class:BMP	access:public	signature:( const char* FileName )
+BMP::SetBitDepth	.\EasyBMP.cpp	/^bool BMP::SetBitDepth( int NewDepth )$/;"	f	class:BMP	signature:( int NewDepth )
+BMP::SetBitDepth	.\EasyBMP_BMP.h	/^ bool SetBitDepth( int NewDepth );$/;"	p	class:BMP	access:public	signature:( int NewDepth )
+BMP::SetColor	.\EasyBMP.cpp	/^bool BMP::SetColor( int ColorNumber , RGBApixel NewColor )$/;"	f	class:BMP	signature:( int ColorNumber , RGBApixel NewColor )
+BMP::SetColor	.\EasyBMP_BMP.h	/^ bool SetColor( int ColorNumber, RGBApixel NewColor ); $/;"	p	class:BMP	access:public	signature:( int ColorNumber, RGBApixel NewColor )
+BMP::SetDPI	.\EasyBMP.cpp	/^void BMP::SetDPI( int HorizontalDPI, int VerticalDPI )$/;"	f	class:BMP	signature:( int HorizontalDPI, int VerticalDPI )
+BMP::SetDPI	.\EasyBMP_BMP.h	/^ void SetDPI( int HorizontalDPI, int VerticalDPI );$/;"	p	class:BMP	access:public	signature:( int HorizontalDPI, int VerticalDPI )
+BMP::SetPixel	.\EasyBMP.cpp	/^bool BMP::SetPixel( int i, int j, RGBApixel NewPixel )$/;"	f	class:BMP	signature:( int i, int j, RGBApixel NewPixel )
+BMP::SetPixel	.\EasyBMP_BMP.h	/^ bool SetPixel( int i, int j, RGBApixel NewPixel );$/;"	p	class:BMP	access:public	signature:( int i, int j, RGBApixel NewPixel )
+BMP::SetSize	.\EasyBMP.cpp	/^bool BMP::SetSize(int NewWidth , int NewHeight )$/;"	f	class:BMP	signature:(int NewWidth , int NewHeight )
+BMP::SetSize	.\EasyBMP_BMP.h	/^ bool SetSize( int NewWidth, int NewHeight );$/;"	p	class:BMP	access:public	signature:( int NewWidth, int NewHeight )
+BMP::SizeOfMetaData1	.\EasyBMP_BMP.h	/^ int SizeOfMetaData1;$/;"	m	class:BMP	access:private
+BMP::SizeOfMetaData2	.\EasyBMP_BMP.h	/^ int SizeOfMetaData2;$/;"	m	class:BMP	access:private
+BMP::TellBitDepth	.\EasyBMP.cpp	/^int BMP::TellBitDepth( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellBitDepth	.\EasyBMP_BMP.h	/^ int TellBitDepth( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::TellHeight	.\EasyBMP.cpp	/^int BMP::TellHeight( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellHeight	.\EasyBMP_BMP.h	/^ int TellHeight( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::TellHorizontalDPI	.\EasyBMP.cpp	/^int BMP::TellHorizontalDPI( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellHorizontalDPI	.\EasyBMP_BMP.h	/^ int TellHorizontalDPI( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::TellNumberOfColors	.\EasyBMP.cpp	/^int BMP::TellNumberOfColors( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellNumberOfColors	.\EasyBMP_BMP.h	/^ int TellNumberOfColors( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::TellVerticalDPI	.\EasyBMP.cpp	/^int BMP::TellVerticalDPI( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellVerticalDPI	.\EasyBMP_BMP.h	/^ int TellVerticalDPI( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::TellWidth	.\EasyBMP.cpp	/^int BMP::TellWidth( void )$/;"	f	class:BMP	signature:( void )
+BMP::TellWidth	.\EasyBMP_BMP.h	/^ int TellWidth( void );$/;"	p	class:BMP	access:public	signature:( void )
+BMP::Width	.\EasyBMP_BMP.h	/^ int Width;$/;"	m	class:BMP	access:private
+BMP::Write1bitRow	.\EasyBMP.cpp	/^bool BMP::Write1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write1bitRow	.\EasyBMP_BMP.h	/^ bool Write1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );$/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write24bitRow	.\EasyBMP.cpp	/^bool BMP::Write24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write24bitRow	.\EasyBMP_BMP.h	/^ bool Write24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write32bitRow	.\EasyBMP.cpp	/^bool BMP::Write32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write32bitRow	.\EasyBMP_BMP.h	/^ bool Write32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write4bitRow	.\EasyBMP.cpp	/^bool BMP::Write4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write4bitRow	.\EasyBMP_BMP.h	/^ bool Write4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write8bitRow	.\EasyBMP.cpp	/^bool BMP::Write8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::Write8bitRow	.\EasyBMP_BMP.h	/^ bool Write8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+BMP::WriteToFile	.\EasyBMP.cpp	/^bool BMP::WriteToFile( const char* FileName )$/;"	f	class:BMP	signature:( const char* FileName )
+BMP::WriteToFile	.\EasyBMP_BMP.h	/^ bool WriteToFile( const char* FileName );$/;"	p	class:BMP	access:public	signature:( const char* FileName )
+BMP::XPelsPerMeter	.\EasyBMP_BMP.h	/^ int XPelsPerMeter;$/;"	m	class:BMP	access:private
+BMP::YPelsPerMeter	.\EasyBMP_BMP.h	/^ int YPelsPerMeter;$/;"	m	class:BMP	access:private
+BMP::operator ()	.\EasyBMP.cpp	/^RGBApixel* BMP::operator()(int i, int j)$/;"	f	class:BMP	signature:(int i, int j)
+BMP::operator ()	.\EasyBMP_BMP.h	/^ RGBApixel* operator()(int i,int j);$/;"	p	class:BMP	access:public	signature:(int i,int j)
+BMP::~BMP	.\EasyBMP.cpp	/^BMP::~BMP()$/;"	f	class:BMP	signature:()
+BMP::~BMP	.\EasyBMP_BMP.h	/^ ~BMP();$/;"	p	class:BMP	access:public	signature:()
+BitDepth	.\EasyBMP_BMP.h	/^ int BitDepth;$/;"	m	class:BMP	access:private
+Blue	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Blue;$/;"	m	struct:RGBApixel	access:public
+Colors	.\EasyBMP_BMP.h	/^ RGBApixel* Colors;$/;"	m	class:BMP	access:private
+CreateGrayscaleColorTable	.\EasyBMP.cpp	/^bool CreateGrayscaleColorTable( BMP& InputImage )$/;"	f	signature:( BMP& InputImage )
+CreateGrayscaleColorTable	.\EasyBMP_VariousBMPutilities.h	/^bool CreateGrayscaleColorTable( BMP& InputImage );$/;"	p	signature:( BMP& InputImage )
+CreateStandardColorTable	.\EasyBMP.cpp	/^bool BMP::CreateStandardColorTable( void )$/;"	f	class:BMP	signature:( void )
+CreateStandardColorTable	.\EasyBMP_BMP.h	/^ bool CreateStandardColorTable( void );$/;"	p	class:BMP	access:public	signature:( void )
+DefaultXPelsPerMeter	.\EasyBMP.h	58;"	d
+DefaultYPelsPerMeter	.\EasyBMP.h	64;"	d
+DisplayBitmapInfo	.\EasyBMP.cpp	/^void DisplayBitmapInfo( const char* szFileNameIn )$/;"	f	signature:( const char* szFileNameIn )
+DisplayBitmapInfo	.\EasyBMP_VariousBMPutilities.h	/^void DisplayBitmapInfo( const char* szFileNameIn );$/;"	p	signature:( const char* szFileNameIn )
+EasyBMP	.\EasyBMP.h	36;"	d
+EasyBMPcheckDataSize	.\EasyBMP.cpp	/^bool EasyBMPcheckDataSize( void )$/;"	f	signature:( void )
+EasyBMPcheckDataSize	.\EasyBMP_BMP.h	/^bool EasyBMPcheckDataSize( void );$/;"	p	signature:( void )
+EasyBMPwarnings	.\EasyBMP.cpp	/^bool EasyBMPwarnings = true;$/;"	v
+FindClosestColor	.\EasyBMP.cpp	/^ebmpBYTE BMP::FindClosestColor( RGBApixel& input )$/;"	f	class:BMP	signature:( RGBApixel& input )
+FindClosestColor	.\EasyBMP_BMP.h	/^ ebmpBYTE FindClosestColor( RGBApixel& input );$/;"	p	class:BMP	access:private	signature:( RGBApixel& input )
+FlipDWORD	.\EasyBMP_DataStructures.h	/^inline ebmpDWORD FlipDWORD( ebmpDWORD in )$/;"	f	signature:( ebmpDWORD in )
+FlipWORD	.\EasyBMP_DataStructures.h	/^inline ebmpWORD FlipWORD( ebmpWORD in )$/;"	f	signature:( ebmpWORD in )
+GetBMFH	.\EasyBMP.cpp	/^BMFH GetBMFH( const char* szFileNameIn )$/;"	f	signature:( const char* szFileNameIn )
+GetBMFH	.\EasyBMP_VariousBMPutilities.h	/^BMFH GetBMFH( const char* szFileNameIn );$/;"	p	signature:( const char* szFileNameIn )
+GetBMIH	.\EasyBMP.cpp	/^BMIH GetBMIH( const char* szFileNameIn )$/;"	f	signature:( const char* szFileNameIn )
+GetBMIH	.\EasyBMP_VariousBMPutilities.h	/^BMIH GetBMIH( const char* szFileNameIn );$/;"	p	signature:( const char* szFileNameIn )
+GetBitmapColorDepth	.\EasyBMP.cpp	/^int GetBitmapColorDepth( const char* szFileNameIn )$/;"	f	signature:( const char* szFileNameIn )
+GetBitmapColorDepth	.\EasyBMP_VariousBMPutilities.h	/^int GetBitmapColorDepth( const char* szFileNameIn );$/;"	p	signature:( const char* szFileNameIn )
+GetColor	.\EasyBMP.cpp	/^RGBApixel BMP::GetColor( int ColorNumber )$/;"	f	class:BMP	signature:( int ColorNumber )
+GetColor	.\EasyBMP_BMP.h	/^ RGBApixel GetColor( int ColorNumber );$/;"	p	class:BMP	access:public	signature:( int ColorNumber )
+GetEasyBMPwarningState	.\EasyBMP.cpp	/^bool GetEasyBMPwarningState( void )$/;"	f	signature:( void )
+GetEasyBMPwarningState	.\EasyBMP.h	/^bool GetEasyBMPwarningState( void );$/;"	p	signature:( void )
+GetPixel	.\EasyBMP.cpp	/^RGBApixel BMP::GetPixel( int i, int j ) const$/;"	f	class:BMP	signature:( int i, int j ) const
+GetPixel	.\EasyBMP_BMP.h	/^ RGBApixel GetPixel( int i, int j ) const;$/;"	p	class:BMP	access:public	signature:( int i, int j ) const
+Green	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Green;$/;"	m	struct:RGBApixel	access:public
+Height	.\EasyBMP_BMP.h	/^ int Height;$/;"	m	class:BMP	access:private
+IntPow	.\EasyBMP.cpp	/^int IntPow( int base, int exponent )$/;"	f	signature:( int base, int exponent )
+IntPow	.\EasyBMP_DataStructures.h	/^int IntPow( int base, int exponent );$/;"	p	signature:( int base, int exponent )
+IntSquare	.\EasyBMP_DataStructures.h	/^inline int IntSquare( int number )$/;"	f	signature:( int number )
+IsBigEndian	.\EasyBMP_DataStructures.h	/^inline bool IsBigEndian()$/;"	f	signature:()
+MetaData1	.\EasyBMP_BMP.h	/^ ebmpBYTE* MetaData1;$/;"	m	class:BMP	access:private
+MetaData2	.\EasyBMP_BMP.h	/^ ebmpBYTE* MetaData2;$/;"	m	class:BMP	access:private
+PixelToPixelCopy	.\EasyBMP.cpp	/^void PixelToPixelCopy( BMP& From, int FromX, int FromY,  $/;"	f	signature:( BMP& From, int FromX, int FromY, BMP& To, int ToX, int ToY)
+PixelToPixelCopy	.\EasyBMP_VariousBMPutilities.h	/^void PixelToPixelCopy( BMP& From, int FromX, int FromY,  $/;"	p	signature:( BMP& From, int FromX, int FromY, BMP& To, int ToX, int ToY)
+PixelToPixelCopyTransparent	.\EasyBMP.cpp	/^void PixelToPixelCopyTransparent( BMP& From, int FromX, int FromY,  $/;"	f	signature:( BMP& From, int FromX, int FromY, BMP& To, int ToX, int ToY, RGBApixel& Transparent )
+PixelToPixelCopyTransparent	.\EasyBMP_VariousBMPutilities.h	/^void PixelToPixelCopyTransparent( BMP& From, int FromX, int FromY,  $/;"	p	signature:( BMP& From, int FromX, int FromY, BMP& To, int ToX, int ToY, RGBApixel& Transparent )
+Pixels	.\EasyBMP_BMP.h	/^ RGBApixel** Pixels;$/;"	m	class:BMP	access:private
+RGBApixel	.\EasyBMP_DataStructures.h	/^typedef struct RGBApixel {$/;"	s
+RGBApixel	.\EasyBMP_DataStructures.h	/^} RGBApixel; $/;"	t	typeref:struct:RGBApixel
+RGBApixel::Alpha	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Alpha;$/;"	m	struct:RGBApixel	access:public
+RGBApixel::Blue	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Blue;$/;"	m	struct:RGBApixel	access:public
+RGBApixel::Green	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Green;$/;"	m	struct:RGBApixel	access:public
+RGBApixel::Red	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Red;$/;"	m	struct:RGBApixel	access:public
+RangedPixelToPixelCopy	.\EasyBMP.cpp	/^void RangedPixelToPixelCopy( BMP& From, int FromL , int FromR, int FromB, int FromT, $/;"	f	signature:( BMP& From, int FromL , int FromR, int FromB, int FromT, BMP& To, int ToX, int ToY )
+RangedPixelToPixelCopy	.\EasyBMP_VariousBMPutilities.h	/^void RangedPixelToPixelCopy( BMP& From, int FromL , int FromR, int FromB, int FromT, $/;"	p	signature:( BMP& From, int FromL , int FromR, int FromB, int FromT, BMP& To, int ToX, int ToY )
+RangedPixelToPixelCopyTransparent	.\EasyBMP.cpp	/^void RangedPixelToPixelCopyTransparent( $/;"	f	signature:( BMP& From, int FromL , int FromR, int FromB, int FromT, BMP& To, int ToX, int ToY , RGBApixel& Transparent )
+RangedPixelToPixelCopyTransparent	.\EasyBMP_VariousBMPutilities.h	/^void RangedPixelToPixelCopyTransparent( $/;"	p	signature:( BMP& From, int FromL , int FromR, int FromB, int FromT, BMP& To, int ToX, int ToY , RGBApixel& Transparent )
+Read1bitRow	.\EasyBMP.cpp	/^bool BMP::Read1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read1bitRow	.\EasyBMP_BMP.h	/^ bool Read1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );$/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read24bitRow	.\EasyBMP.cpp	/^bool BMP::Read24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read24bitRow	.\EasyBMP_BMP.h	/^ bool Read24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read32bitRow	.\EasyBMP.cpp	/^bool BMP::Read32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read32bitRow	.\EasyBMP_BMP.h	/^ bool Read32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read4bitRow	.\EasyBMP.cpp	/^bool BMP::Read4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read4bitRow	.\EasyBMP_BMP.h	/^ bool Read4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read8bitRow	.\EasyBMP.cpp	/^bool BMP::Read8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Read8bitRow	.\EasyBMP_BMP.h	/^ bool Read8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+ReadFromFile	.\EasyBMP.cpp	/^bool BMP::ReadFromFile( const char* FileName )$/;"	f	class:BMP	signature:( const char* FileName )
+ReadFromFile	.\EasyBMP_BMP.h	/^ bool ReadFromFile( const char* FileName );$/;"	p	class:BMP	access:public	signature:( const char* FileName )
+Red	.\EasyBMP_DataStructures.h	/^	ebmpBYTE Red;$/;"	m	struct:RGBApixel	access:public
+Rescale	.\EasyBMP.cpp	/^bool Rescale( BMP& InputImage , char mode, int NewDimension )$/;"	f	signature:( BMP& InputImage , char mode, int NewDimension )
+Rescale	.\EasyBMP_VariousBMPutilities.h	/^bool Rescale( BMP& InputImage , char mode, int NewDimension );$/;"	p	signature:( BMP& InputImage , char mode, int NewDimension )
+SafeFread	.\EasyBMP.cpp	/^bool SafeFread( char* buffer, int size, int number, FILE* fp )$/;"	f	signature:( char* buffer, int size, int number, FILE* fp )
+SafeFread	.\EasyBMP_BMP.h	/^bool SafeFread( char* buffer, int size, int number, FILE* fp );$/;"	p	signature:( char* buffer, int size, int number, FILE* fp )
+SetBitDepth	.\EasyBMP.cpp	/^bool BMP::SetBitDepth( int NewDepth )$/;"	f	class:BMP	signature:( int NewDepth )
+SetBitDepth	.\EasyBMP_BMP.h	/^ bool SetBitDepth( int NewDepth );$/;"	p	class:BMP	access:public	signature:( int NewDepth )
+SetColor	.\EasyBMP.cpp	/^bool BMP::SetColor( int ColorNumber , RGBApixel NewColor )$/;"	f	class:BMP	signature:( int ColorNumber , RGBApixel NewColor )
+SetColor	.\EasyBMP_BMP.h	/^ bool SetColor( int ColorNumber, RGBApixel NewColor ); $/;"	p	class:BMP	access:public	signature:( int ColorNumber, RGBApixel NewColor )
+SetDPI	.\EasyBMP.cpp	/^void BMP::SetDPI( int HorizontalDPI, int VerticalDPI )$/;"	f	class:BMP	signature:( int HorizontalDPI, int VerticalDPI )
+SetDPI	.\EasyBMP_BMP.h	/^ void SetDPI( int HorizontalDPI, int VerticalDPI );$/;"	p	class:BMP	access:public	signature:( int HorizontalDPI, int VerticalDPI )
+SetEasyBMPwarningsOff	.\EasyBMP.cpp	/^void SetEasyBMPwarningsOff( void )$/;"	f	signature:( void )
+SetEasyBMPwarningsOff	.\EasyBMP.h	/^void SetEasyBMPwarningsOff( void );$/;"	p	signature:( void )
+SetEasyBMPwarningsOn	.\EasyBMP.cpp	/^void SetEasyBMPwarningsOn( void )$/;"	f	signature:( void )
+SetEasyBMPwarningsOn	.\EasyBMP.h	/^void SetEasyBMPwarningsOn( void );$/;"	p	signature:( void )
+SetPixel	.\EasyBMP.cpp	/^bool BMP::SetPixel( int i, int j, RGBApixel NewPixel )$/;"	f	class:BMP	signature:( int i, int j, RGBApixel NewPixel )
+SetPixel	.\EasyBMP_BMP.h	/^ bool SetPixel( int i, int j, RGBApixel NewPixel );$/;"	p	class:BMP	access:public	signature:( int i, int j, RGBApixel NewPixel )
+SetSize	.\EasyBMP.cpp	/^bool BMP::SetSize(int NewWidth , int NewHeight )$/;"	f	class:BMP	signature:(int NewWidth , int NewHeight )
+SetSize	.\EasyBMP_BMP.h	/^ bool SetSize( int NewWidth, int NewHeight );$/;"	p	class:BMP	access:public	signature:( int NewWidth, int NewHeight )
+SizeOfMetaData1	.\EasyBMP_BMP.h	/^ int SizeOfMetaData1;$/;"	m	class:BMP	access:private
+SizeOfMetaData2	.\EasyBMP_BMP.h	/^ int SizeOfMetaData2;$/;"	m	class:BMP	access:private
+Square	.\EasyBMP_DataStructures.h	/^inline double Square( double number )$/;"	f	signature:( double number )
+SwitchEndianess	.\EasyBMP.cpp	/^void BMFH::SwitchEndianess( void )$/;"	f	class:BMFH	signature:( void )
+SwitchEndianess	.\EasyBMP.cpp	/^void BMIH::SwitchEndianess( void )$/;"	f	class:BMIH	signature:( void )
+SwitchEndianess	.\EasyBMP_DataStructures.h	/^ void SwitchEndianess( void );$/;"	p	class:BMFH	access:public	signature:( void )
+SwitchEndianess	.\EasyBMP_DataStructures.h	/^ void SwitchEndianess( void );$/;"	p	class:BMIH	access:public	signature:( void )
+TellBitDepth	.\EasyBMP.cpp	/^int BMP::TellBitDepth( void )$/;"	f	class:BMP	signature:( void )
+TellBitDepth	.\EasyBMP_BMP.h	/^ int TellBitDepth( void );$/;"	p	class:BMP	access:public	signature:( void )
+TellHeight	.\EasyBMP.cpp	/^int BMP::TellHeight( void )$/;"	f	class:BMP	signature:( void )
+TellHeight	.\EasyBMP_BMP.h	/^ int TellHeight( void );$/;"	p	class:BMP	access:public	signature:( void )
+TellHorizontalDPI	.\EasyBMP.cpp	/^int BMP::TellHorizontalDPI( void )$/;"	f	class:BMP	signature:( void )
+TellHorizontalDPI	.\EasyBMP_BMP.h	/^ int TellHorizontalDPI( void );$/;"	p	class:BMP	access:public	signature:( void )
+TellNumberOfColors	.\EasyBMP.cpp	/^int BMP::TellNumberOfColors( void )$/;"	f	class:BMP	signature:( void )
+TellNumberOfColors	.\EasyBMP_BMP.h	/^ int TellNumberOfColors( void );$/;"	p	class:BMP	access:public	signature:( void )
+TellVerticalDPI	.\EasyBMP.cpp	/^int BMP::TellVerticalDPI( void )$/;"	f	class:BMP	signature:( void )
+TellVerticalDPI	.\EasyBMP_BMP.h	/^ int TellVerticalDPI( void );$/;"	p	class:BMP	access:public	signature:( void )
+TellWidth	.\EasyBMP.cpp	/^int BMP::TellWidth( void )$/;"	f	class:BMP	signature:( void )
+TellWidth	.\EasyBMP_BMP.h	/^ int TellWidth( void );$/;"	p	class:BMP	access:public	signature:( void )
+Width	.\EasyBMP_BMP.h	/^ int Width;$/;"	m	class:BMP	access:private
+Write1bitRow	.\EasyBMP.cpp	/^bool BMP::Write1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write1bitRow	.\EasyBMP_BMP.h	/^ bool Write1bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );$/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write24bitRow	.\EasyBMP.cpp	/^bool BMP::Write24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write24bitRow	.\EasyBMP_BMP.h	/^ bool Write24bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write32bitRow	.\EasyBMP.cpp	/^bool BMP::Write32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write32bitRow	.\EasyBMP_BMP.h	/^ bool Write32bitRow( ebmpBYTE* Buffer, int BufferSize, int Row );   $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write4bitRow	.\EasyBMP.cpp	/^bool BMP::Write4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write4bitRow	.\EasyBMP_BMP.h	/^ bool Write4bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write8bitRow	.\EasyBMP.cpp	/^bool BMP::Write8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row )$/;"	f	class:BMP	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+Write8bitRow	.\EasyBMP_BMP.h	/^ bool Write8bitRow(  ebmpBYTE* Buffer, int BufferSize, int Row );  $/;"	p	class:BMP	access:private	signature:( ebmpBYTE* Buffer, int BufferSize, int Row )
+WriteToFile	.\EasyBMP.cpp	/^bool BMP::WriteToFile( const char* FileName )$/;"	f	class:BMP	signature:( const char* FileName )
+WriteToFile	.\EasyBMP_BMP.h	/^ bool WriteToFile( const char* FileName );$/;"	p	class:BMP	access:public	signature:( const char* FileName )
+XPelsPerMeter	.\EasyBMP_BMP.h	/^ int XPelsPerMeter;$/;"	m	class:BMP	access:private
+YPelsPerMeter	.\EasyBMP_BMP.h	/^ int YPelsPerMeter;$/;"	m	class:BMP	access:private
+_CRT_SECURE_NO_DEPRECATE	.\EasyBMP.h	27;"	d
+_DefaultXPelsPerMeter_	.\EasyBMP.h	57;"	d
+_DefaultYPelsPerMeter_	.\EasyBMP.h	63;"	d
+_EasyBMP_BMP_h_	.\EasyBMP_BMP.h	22;"	d
+_EasyBMP_Custom_Math_Functions_	.\EasyBMP_DataStructures.h	23;"	d
+_EasyBMP_DataStructures_h_	.\EasyBMP_DataStructures.h	41;"	d
+_EasyBMP_Defined_WINGDI	.\EasyBMP_DataStructures.h	34;"	d
+_EasyBMP_VariousBMPutilities_h_	.\EasyBMP_VariousBMPutilities.h	22;"	d
+_EasyBMP_Version_	.\EasyBMP.h	73;"	d
+_EasyBMP_Version_Integer_	.\EasyBMP.h	74;"	d
+_EasyBMP_Version_String_	.\EasyBMP.h	75;"	d
+_EasyBMPwarnings_	.\EasyBMP.h	79;"	d
+__anon1::i	.\main.cpp	/^    int i;$/;"	m	struct:__anon1	file:	access:public
+array	.\main.cpp	/^int array[3][3]={$/;"	v
+array2bmp	.\main.cpp	/^void array2bmp()$/;"	f	signature:()
+bfOffBits	.\EasyBMP_DataStructures.h	/^ ebmpDWORD bfOffBits; $/;"	m	class:BMFH	access:public
+bfReserved1	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfReserved1;$/;"	m	class:BMFH	access:public
+bfReserved2	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfReserved2;$/;"	m	class:BMFH	access:public
+bfSize	.\EasyBMP_DataStructures.h	/^ ebmpDWORD bfSize;$/;"	m	class:BMFH	access:public
+bfType	.\EasyBMP_DataStructures.h	/^ ebmpWORD  bfType;$/;"	m	class:BMFH	access:public
+biBitCount	.\EasyBMP_DataStructures.h	/^ ebmpWORD  biBitCount;$/;"	m	class:BMIH	access:public
+biClrImportant	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biClrImportant;$/;"	m	class:BMIH	access:public
+biClrUsed	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biClrUsed;$/;"	m	class:BMIH	access:public
+biCompression	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biCompression;$/;"	m	class:BMIH	access:public
+biHeight	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biHeight;$/;"	m	class:BMIH	access:public
+biPlanes	.\EasyBMP_DataStructures.h	/^ ebmpWORD  biPlanes;$/;"	m	class:BMIH	access:public
+biSize	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biSize;$/;"	m	class:BMIH	access:public
+biSizeImage	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biSizeImage;$/;"	m	class:BMIH	access:public
+biWidth	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biWidth;$/;"	m	class:BMIH	access:public
+biXPelsPerMeter	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biXPelsPerMeter;$/;"	m	class:BMIH	access:public
+biYPelsPerMeter	.\EasyBMP_DataStructures.h	/^ ebmpDWORD biYPelsPerMeter;$/;"	m	class:BMIH	access:public
+bmp2array	.\main.cpp	/^void bmp2array()$/;"	f	signature:()
+display	.\EasyBMP.cpp	/^void BMFH::display( void )$/;"	f	class:BMFH	signature:( void )
+display	.\EasyBMP.cpp	/^void BMIH::display( void )$/;"	f	class:BMIH	signature:( void )
+display	.\EasyBMP_DataStructures.h	/^ void display( void );$/;"	p	class:BMFH	access:public	signature:( void )
+display	.\EasyBMP_DataStructures.h	/^ void display( void );$/;"	p	class:BMIH	access:public	signature:( void )
+ebmpBYTE	.\EasyBMP_DataStructures.h	/^ typedef unsigned char  ebmpBYTE;$/;"	t
+ebmpDWORD	.\EasyBMP_DataStructures.h	/^ typedef unsigned int  ebmpDWORD;$/;"	t
+ebmpWORD	.\EasyBMP_DataStructures.h	/^ typedef unsigned short ebmpWORD;$/;"	t
+i	.\main.cpp	/^    int i;$/;"	m	struct:__anon1	file:	access:public
+main	.\main.cpp	/^int main()$/;"	f	signature:()
+operator ()	.\EasyBMP.cpp	/^RGBApixel* BMP::operator()(int i, int j)$/;"	f	class:BMP	signature:(int i, int j)
+operator ()	.\EasyBMP_BMP.h	/^ RGBApixel* operator()(int i,int j);$/;"	p	class:BMP	access:public	signature:(int i,int j)
+test	.\main.cpp	/^int test(int x,int y)$/;"	f	signature:(int x,int y)
+~BMP	.\EasyBMP.cpp	/^BMP::~BMP()$/;"	f	class:BMP	signature:()
+~BMP	.\EasyBMP_BMP.h	/^ ~BMP();$/;"	p	class:BMP	access:public	signature:()
